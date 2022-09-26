@@ -1,0 +1,156 @@
+*{
+	font-family: sans-serif;
+}
+
+.titupadre{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.titulo{
+	box-shadow: 5px 5px 10px black ;
+	border-radius: 10px;
+	padding: 20px;
+	font-family: cursive;
+	background-color: #5448b7;
+	color: white;
+	text-align: center;
+	width: 200px;
+	margin: 20px;
+	font-size: 20px;
+
+}
+.by{
+	font-size: 12px;
+}
+
+
+
+
+.imgpadre{
+
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.img{
+	margin: 20px auto;
+	width: 270px;
+	height: 270px;
+	object-fit: cover;
+}
+
+
+
+
+.subtitulo{
+	text-align: center;
+	font-style: italic;
+}
+
+
+
+
+input{
+
+	margin: 10px;
+	padding: 5px;
+	
+}
+
+label{
+	margin: 10px;
+	font-size: 25px;
+}
+
+
+
+#calcu{
+	padding: 20px;
+	width: 200px;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 5px 5px 15px black ;
+	background-color: #5448b7;
+	color: white;
+	font-size: 25px;
+}
+
+.entradaspadre{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+width: width;
+text-align: center;
+}
+
+
+div{
+	
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+width: width;
+text-align: center;
+
+ }
+
+ .botones{
+ 	padding: 10px;
+	width: 100px;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 5px 5px 15px black ;
+	background-color: #5448b7;
+	color: white;
+	font-size: 25px;
+
+ }
+
+ .entradas{
+ 	padding: 10px;
+ }
+
+#resultado{
+	box-shadow: 5px 5px 10px black ;
+	border-radius: 10px;
+	padding: 20px;
+	font-family: cursive;
+	background-color: #5448b7;
+	color: white;
+	text-align: center;
+	
+	margin: 20px;
+	font-size: 20px;
+}
+
+
+
+@media (max-width: 1000px) { 
+
+#labelMolesto{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+width: width;
+} 
+
+div{
+	
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+width: width;
+text-align: center;
+
+ }
+
+}
+
